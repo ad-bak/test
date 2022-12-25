@@ -1,0 +1,8 @@
+.details {
+  width: 100%;
+  margin-left: auto;
+}
+
+.details > * {
+  margin: auto;
+}

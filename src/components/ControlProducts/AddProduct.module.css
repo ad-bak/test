@@ -1,0 +1,51 @@
+.button {
+  font: inherit;
+  border: 1px solid #27ae20;
+  background: #27ae20;
+  color: white;
+  padding: 0.75rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.15rem;
+  border-radius: 30px;
+}
+
+.button:hover,
+.button:active {
+  background: #0d4d1d;
+  border-color: #0d4d1d;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.control label {
+  font-weight: bold;
+  flex: 1;
+  color: #464646;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  width: 80%;
+  margin-bottom: 1rem;
+  flex: 3;
+  font: inherit;
+  padding: 0.35rem 0.35rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+  .control {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 2rem auto;
+}

@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+}
+.link h2 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link h2:hover {
+  color: rgb(22, 144, 33);
+}
+
+.link p {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.product:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,38 @@
+.list h1 {
+  text-align: center;
+}
+
+.items {
+  /*grid with auto columns and rows*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 2rem;
+  padding: 5rem;
+  margin: 0 auto;
+}
+
+.control-btn {
+  display: flex;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: auto;
+}
+.buttons {
+  display: flex;
+}
+
+.msg {
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+}
